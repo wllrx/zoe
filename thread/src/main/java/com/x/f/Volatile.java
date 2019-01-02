@@ -1,6 +1,9 @@
 package com.x.f;
 
 /**
+ * volatile关键字
+ * 表示直接操作变量
+ *
  * @author zoe
  * @date 2018-12-29
  */

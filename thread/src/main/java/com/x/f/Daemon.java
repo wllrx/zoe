@@ -1,6 +1,8 @@
 package com.x.f;
 
 /**
+ * 守护线程示例
+ *
  * @author zoe
  * @date 2018-12-29
  */
@@ -26,7 +28,7 @@ public class Daemon {
                 System.out.println(Thread.currentThread().getName() + "正在执行  x = " + x);
             }
         },"用户守护线程");
-        daemonThread.setDaemon(true);//将daemonThread
+        daemonThread.setDaemon(true);//将daemonThread设为守护线程
         userThread.start();
         daemonThread.start();
     }

@@ -1,6 +1,8 @@
 package com.x.f;
 
 /**
+ * 线程停止
+ *
  * @author zoe
  * @date 2018-12-29
  */

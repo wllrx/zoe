@@ -1,5 +1,10 @@
 package com.x.f;
-
+/**
+ * 生产者消费者
+ *
+ * @author zoe
+ * @date 2018-12-29
+ */
 public class Producer {
         public static void main(String[] args) throws Exception{
             Message message = new Message();
