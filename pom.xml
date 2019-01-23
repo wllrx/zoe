@@ -5,6 +5,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>thread</module>
+        <module>base</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
